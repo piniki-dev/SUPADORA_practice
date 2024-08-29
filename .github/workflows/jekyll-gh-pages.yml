@@ -35,7 +35,7 @@ jobs:
         with:
           node-version: 16
       - name: build
-        run: npm ci && npm run build
+        run: cd app && npm run build
       # - name: Build with Jekyll
       #   uses: actions/jekyll-build-pages@v1
       #   with:
